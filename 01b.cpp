@@ -37,7 +37,7 @@ int main()
     int32_t ssLine[3], ssSumLastWindow, ssCount_inc=0, ssCount_no_inc=0, ssCount_total=0, ssWindowSum=0;
     int32_t *psLine[3];
     string sLine0, sLine1, sLine2;
-    ifstream myfile ("import/01.txt");
+    ifstream myfile ("../include/01.txt");
     if(myfile.is_open()){
         getline(myfile, sLine0);
         getline(myfile, sLine1);

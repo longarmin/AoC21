@@ -40,7 +40,7 @@ public:
 
 int main() {
     string line;
-    ifstream myfile ("import/input02.txt");
+    ifstream myfile ("../include/input02.txt");
     Position_c Pos; 
     if(myfile.is_open()){
         while( getline(myfile, line)){

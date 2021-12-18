@@ -7,7 +7,7 @@
 using namespace std;
 
 int main(){
-    ifstream myfile ("import/input03.txt");
+    ifstream myfile ("../include/input03.txt");
     uint8_t ucLinesize = 0;
     int32_t ssLineCount = 0, ssBit[20] = {0};
     uint32_t usResultGamma[20]={0};

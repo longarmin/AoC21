@@ -10,7 +10,7 @@ int main()
 {
     int32_t sLine, sLastLine, count_inc=0, count_no_inc=0, count_total=0;
     string line;
-    ifstream myfile ("import/input01.txt");
+    ifstream myfile ("../input/input01.txt");
     if(myfile.is_open()){
         getline(myfile, line);
         sLine = stoi(line);
@@ -20,7 +20,7 @@ int main()
             if (sLastLine < sLine ){
                 count_inc += 1;
             }
-            else {
+    else {
                 count_no_inc += 1;
             }
             count_total++;
